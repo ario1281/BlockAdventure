@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ProjectFile">
+      <UniqueIdentifier>{53890315-df28-490e-9f40-0d97062b5ae9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ProjectFile\CharaFilter">
+      <UniqueIdentifier>{437ac433-07d8-409e-9d6c-1c30c964bce8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ProjectFile\SceneFilter">
+      <UniqueIdentifier>{b066f991-5620-40e1-a999-2c201f2185c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ProjectFile\OtherFilter">
+      <UniqueIdentifier>{5a2a9715-5d91-4f3d-adc8-f44d416e7781}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ProjectFile\CharaFilter\StageFilter">
+      <UniqueIdentifier>{da6114b9-f911-4ad5-acb6-cd9f94bd3414}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="header\SceneTitle.h">
+      <Filter>ProjectFile\SceneFilter</Filter>
+    </ClInclude>
+    <ClInclude Include="header\SceneSelect.h">
+      <Filter>ProjectFile\SceneFilter</Filter>
+    </ClInclude>
+    <ClInclude Include="header\SceneManager.h">
+      <Filter>ProjectFile\SceneFilter</Filter>
+    </ClInclude>
+    <ClInclude Include="header\SceneGame.h">
+      <Filter>ProjectFile\SceneFilter</Filter>
+    </ClInclude>
+    <ClInclude Include="header\MeshManager.h">
+      <Filter>ProjectFile\CharaFilter</Filter>
+    </ClInclude>
+    <ClInclude Include="header\TextureManager.h">
+      <Filter>ProjectFile\CharaFilter</Filter>
+    </ClInclude>
+    <ClInclude Include="header\Cursor.h">
+      <Filter>ProjectFile\OtherFilter</Filter>
+    </ClInclude>
+    <ClInclude Include="header\JudgeManager.h">
+      <Filter>ProjectFile\OtherFilter</Filter>
+    </ClInclude>
+    <ClInclude Include="header\define.h">
+      <Filter>ProjectFile</Filter>
+    </ClInclude>
+    <ClInclude Include="header\SceneBase.h">
+      <Filter>ProjectFile\SceneFilter</Filter>
+    </ClInclude>
+    <ClInclude Include="header\ObjectGoal.h">
+      <Filter>ProjectFile\CharaFilter\StageFilter</Filter>
+    </ClInclude>
+    <ClInclude Include="header\ObjectSwitch.h">
+      <Filter>ProjectFile\CharaFilter\StageFilter</Filter>
+    </ClInclude>
+    <ClInclude Include="header\ObjectWood.h">
+      <Filter>ProjectFile\CharaFilter\StageFilter</Filter>
+    </ClInclude>
+    <ClInclude Include="header\ObjectGlass.h">
+      <Filter>ProjectFile\CharaFilter\StageFilter</Filter>
+    </ClInclude>
+    <ClInclude Include="header\ObjectStone.h">
+      <Filter>ProjectFile\CharaFilter\StageFilter</Filter>
+    </ClInclude>
+    <ClInclude Include="header\wavread.h">
+      <Filter>ProjectFile\OtherFilter</Filter>
+    </ClInclude>
+    <ClInclude Include="header\SoundManager.h">
+      <Filter>ProjectFile\OtherFilter</Filter>
+    </ClInclude>
+    <ClInclude Include="header\SceneOption.h">
+      <Filter>ProjectFile\SceneFilter</Filter>
+    </ClInclude>
+    <ClInclude Include="header\TaskManager.h">
+      <Filter>ProjectFile\OtherFilter</Filter>
+    </ClInclude>
+    <ClInclude Include="header\SceneLoad.h">
+      <Filter>ProjectFile\SceneFilter</Filter>
+    </ClInclude>
+    <ClInclude Include="header\Human.h">
+      <Filter>ProjectFile\CharaFilter</Filter>
+    </ClInclude>
+    <ClInclude Include="header\ObjectStage.h">
+      <Filter>ProjectFile\CharaFilter\StageFilter</Filter>
+    </ClInclude>
+    <ClInclude Include="header\ObjectBack.h">
+      <Filter>ProjectFile\CharaFilter\StageFilter</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\MeshManager.cpp">
+      <Filter>ProjectFile\CharaFilter</Filter>
+    </ClCompile>
+    <ClCompile Include="source\SceneTitle.cpp">
+      <Filter>ProjectFile\SceneFilter</Filter>
+    </ClCompile>
+    <ClCompile Include="source\SceneManager.cpp">
+      <Filter>ProjectFile\SceneFilter</Filter>
+    </ClCompile>
+    <ClCompile Include="source\SceneGame.cpp">
+      <Filter>ProjectFile\SceneFilter</Filter>
+    </ClCompile>
+    <ClCompile Include="source\SceneBase.cpp">
+      <Filter>ProjectFile\SceneFilter</Filter>
+    </ClCompile>
+    <ClCompile Include="source\TextureManager.cpp">
+      <Filter>ProjectFile\CharaFilter</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Cursor.cpp">
+      <Filter>ProjectFile\OtherFilter</Filter>
+    </ClCompile>
+    <ClCompile Include="source\JudgeManager.cpp">
+      <Filter>ProjectFile\OtherFilter</Filter>
+    </ClCompile>
+    <ClCompile Include="source\main.cpp">
+      <Filter>ProjectFile</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ObjectGoal.cpp">
+      <Filter>ProjectFile\CharaFilter\StageFilter</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ObjectSwitch.cpp">
+      <Filter>ProjectFile\CharaFilter\StageFilter</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ObjectWood.cpp">
+      <Filter>ProjectFile\CharaFilter\StageFilter</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ObjectGlass.cpp">
+      <Filter>ProjectFile\CharaFilter\StageFilter</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ObjectStone.cpp">
+      <Filter>ProjectFile\CharaFilter\StageFilter</Filter>
+    </ClCompile>
+    <ClCompile Include="source\wavread.cpp">
+      <Filter>ProjectFile\OtherFilter</Filter>
+    </ClCompile>
+    <ClCompile Include="source\SoundManager.cpp">
+      <Filter>ProjectFile\OtherFilter</Filter>
+    </ClCompile>
+    <ClCompile Include="source\SceneOption.cpp">
+      <Filter>ProjectFile\SceneFilter</Filter>
+    </ClCompile>
+    <ClCompile Include="source\SceneSelect.cpp">
+      <Filter>ProjectFile\SceneFilter</Filter>
+    </ClCompile>
+    <ClCompile Include="source\SceneLoad.cpp">
+      <Filter>ProjectFile\SceneFilter</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Human.cpp">
+      <Filter>ProjectFile\CharaFilter</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ObjectStage.cpp">
+      <Filter>ProjectFile\CharaFilter\StageFilter</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ObjectBack.cpp">
+      <Filter>ProjectFile\CharaFilter\StageFilter</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
