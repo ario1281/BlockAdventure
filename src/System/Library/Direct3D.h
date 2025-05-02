@@ -102,6 +102,6 @@ private:
 	Direct3D() {}
 };
 
-#define D3D Direct3D::GetInstance()
-#define DEVICE D3D.GetDev()
-#define SPRITE D3D.GetSprite()
+#define D3D     Direct3D::GetInstance()
+#define DEVICE  D3D.GetDev()
+#define SPRITE  D3D.GetSprite()

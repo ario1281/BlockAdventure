@@ -1,10 +1,19 @@
 #pragma once
+
 #include <windows.h>
 #include <stdio.h>
 
-#include "System\Library\define.h"
-#include"Game\GameWindow.h"
-#include"System\Library\LightManager.h"
+//===========================
+// define.h
+//===========================
+#include"System/Library/define.h"
+
+//===========================
+// ‚»‚Ì‘¼
+//===========================
+#include"Game/GameWindow.h"
+#include"System/Library/LightManager.h"
+
 
 class System
 {

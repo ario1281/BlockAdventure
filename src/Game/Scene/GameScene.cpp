@@ -62,24 +62,7 @@ void GameScene::Start()
 #endif // !_DEBUG
 
 }
-void GameScene::Imgui()
-{
 
-	ImGui::Begin("GameScene_ToolBox",&m_guiFlg, ImGuiWindowFlags_MenuBar);
-	//Å@Menu Bar
-	if (ImGui::BeginMenuBar)
-	{
-		if (ImGui::BeginMenu("File"))
-		{
-			if (ImGui::MenuItem("Open..", "Ctrl+O")) { /* Do stuff */ }
-			if (ImGui::MenuItem("Save", "Ctrl+S")) { /* Do stuff */ }
-			if (ImGui::MenuItem("Close", "Ctrl+W")) { m_guiFlg = false; }
-			ImGui::EndMenu();
-		}
-		ImGui::EndMenuBar();
-	}
-	ImGui::End();
-}
 
 bool GameScene::Update()
 {

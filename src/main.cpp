@@ -1,12 +1,15 @@
 #include"main.h"
-#include"Game\Scene\GameScene.h"
-#include"Game\Scene\TitleScene.h"
 
+////===========================
+// シーン
+//===========================
+#include"Game/Scene/GameScene.h"
+#include"Game/Scene/TitleScene.h"
 
 /*===================================================================
 	メイン
 ===================================================================*/
-int WINAPI WinMain(HINSTANCE hInst, HINSTANCE hPrev, LPSTR lpParam, int nCmdshow)
+int WINAPI WinMain(_In_ HINSTANCE hInst, _In_opt_  HINSTANCE hPrev, _In_ LPSTR lpCmdLine, _In_ int nShowCmd)
 {
 	// メモリリークを知らせる
 	_CrtSetDbgFlag(_CRTDBG_ALLOC_MEM_DF | _CRTDBG_LEAK_CHECK_DF);
@@ -17,7 +20,7 @@ int WINAPI WinMain(HINSTANCE hInst, HINSTANCE hPrev, LPSTR lpParam, int nCmdshow
 	/*===================================================================
 		ウィンドウ作成、Direct3D初期化など
 	===================================================================*/
-	if (!APP.Init(hInst, nCmdshow, SCRW, SCRH)) return 0;
+	if (!APP.Init(hInst, nShowCmd, SCRW, SCRH)) return 0;
 
 	/*===================================================================
 		ループ

@@ -71,14 +71,7 @@ void Human::Draw3D()
 	m_spModel->Draw();
 }
 
-void Human::ImGui()
-{
-	ImGui::Begin((m_name + "Class_ToolBox").c_str());
-	auto pos = m_mWorld.GetPos();
-	ImGui::Text("Position x:%2f y:%2f z:%2f", pos.x, pos.y, pos.z);
 
-	ImGui::End();
-}
 
 //Å@ìÆçÏä÷êî
 bool Human::Moving(Vector3& vec, const std::list<shared_ptr<GameObject>>* s_obj)

@@ -21,12 +21,6 @@ public:
 	virtual void Draw2D();
 	virtual void Draw3D();
 
-	virtual void ImGui() {
-		ImGui::Begin((m_name + " class").c_str());
-		ImGui::Text("None");
-		ImGui::End();
-	};
-
 	void SetModel(const std::string &name);
 
 
@@ -41,6 +35,4 @@ protected:
 	std::string					m_tag		= "";
 	std::string					m_name		= "GameObject";
 
-	// Imgui
-	bool					m_Imgui		= false;
 };

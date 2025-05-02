@@ -1,6 +1,6 @@
 #include "GameWindow.h"
 
-bool GameWindow::Create(HINSTANCE _hInst, int _cmdShow, int _w, int _h, const std::string & _wndName)
+bool GameWindow::Create(HINSTANCE _hInst, int _showCmd, int _w, int _h, const std::string & _wndName)
 {
 	/*===================================================================
 		メインウィンドウ作成
@@ -39,7 +39,7 @@ bool GameWindow::Create(HINSTANCE _hInst, int _cmdShow, int _w, int _h, const st
 
 	SetClientSize(_w, _h);
 
-	ShowWindow(m_hWnd, _cmdShow);
+	ShowWindow(m_hWnd, _showCmd);
 
 	UpdateWindow(m_hWnd);
 	

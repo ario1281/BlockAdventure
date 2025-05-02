@@ -30,7 +30,7 @@ private:
 	std::unordered_map<std::string, shared_ptr<MeshManager>>		m_mapModel;
 	std::unordered_map<std::string, shared_ptr<TextureManager>>		m_mapTexture;
 	std::unordered_map<std::string, json11::Json>					m_mapJson;
-	std::unordered_map<std::string, shared_ptr<DirectSoundManager>>		m_mapSound;
+	std::unordered_map<std::string, shared_ptr<DirectSoundManager>>	m_mapSound;
 
 public:
 	static ResourceFactory& GetInstance() {

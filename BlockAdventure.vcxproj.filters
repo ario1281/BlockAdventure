@@ -40,9 +40,6 @@
     <Filter Include="src\Game\Object\Game">
       <UniqueIdentifier>{65c65cca-85c4-4031-8383-f2dbcf003e3f}</UniqueIdentifier>
     </Filter>
-    <Filter Include="src\System\ImGui">
-      <UniqueIdentifier>{89311040-b48a-4963-ad07-f5ff07eee813}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Game\GameWindow.cpp">
@@ -174,9 +171,6 @@
     <ClCompile Include="src\System\Library\Easing.cpp">
       <Filter>src\System\Library</Filter>
     </ClCompile>
-    <ClCompile Include="src\System\ImGUI\ImGUIManager.cpp">
-      <Filter>src\System\ImGui</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Game\GameWindow.h">
@@ -307,9 +301,6 @@
     </ClInclude>
     <ClInclude Include="src\System\Library\Easing.h">
       <Filter>src\System\Library</Filter>
-    </ClInclude>
-    <ClInclude Include="src\System\ImGUI\ImGUIManager.h">
-      <Filter>src\System\ImGui</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

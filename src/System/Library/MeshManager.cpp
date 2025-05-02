@@ -1,7 +1,6 @@
-#include"define.h"
 #include"MeshManager.h"
 
-bool MeshManager::LoadXFile(const std::string & filename)
+bool MeshManager::LoadXFile(const std::string& filename)
 {
 	Release();
 

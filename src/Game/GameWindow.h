@@ -31,7 +31,5 @@ private:
 	static LRESULT CALLBACK CallWndProc(HWND hWnd, UINT msg, WPARAM wParam, LPARAM lParam);
 	LRESULT CALLBACK WndProc(HWND hWnd, UINT msg, WPARAM wParam, LPARAM lParam);
 
-	LRESULT ImGuiWndProc(HWND hwnd, UINT msg, WPARAM wParam, LPARAM lParam);
-
 	int		m_MouseWheelVal = 0;
 };

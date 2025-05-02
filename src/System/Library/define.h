@@ -28,10 +28,10 @@
 
 #define DIRECTINPUT_VERSION 0x0800
 
-#include "d3d9.h"
-#include "d3dx9.h"
-#include "dsound.h"
-#include "dinput.h"
+#include <d3d9.h>
+#include <d3dx9.h>
+#include <dsound.h>
+#include <dinput.h>
 
 
 /*===============================================
@@ -69,10 +69,7 @@
 ===============================================*/
 
 //　追加ライブラリ
-#include<json11\json11.hpp>
-#include<imgui\imgui.h>
-
-#include"..\ImGUI\ImGUIManager.h"
+#include<json11/json11.hpp>
 
 //　その他
 #include"Helper.h"
@@ -87,7 +84,6 @@
 
 #include"Direct3D.h"
 
-#include"SceneManager.h"
 #include"TextureManager.h"
 
 #include"MeshManager.h"

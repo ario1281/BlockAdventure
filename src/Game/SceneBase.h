@@ -19,7 +19,7 @@ public:
 
 	void		 Frame();
 
-	shared_ptr<GameObject>	FindObjectWithTag(const std::string &tag);
+	shared_ptr<GameObject> FindObjectWithTag(const std::string &tag);
 
 
 protected:
